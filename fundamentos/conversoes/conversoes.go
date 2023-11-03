@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(notaFinal)
 
 	// cuidado...
-	fmt.Println("Teste " + string(97)) //Conversão para a tabela ascii
+	fmt.Println("Teste " + string('a')) //Conversão para a tabela ascii
 
 	// int para string
 	fmt.Println("Teste " + strconv.Itoa(123))
